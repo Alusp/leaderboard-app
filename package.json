@@ -1,0 +1,20 @@
+{
+  "name": "leaderboard-app",
+  "version": "1.0.0",
+  "description": "An Application showing a list of game leaders and top scores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alusp/leaderboard-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alusp/leaderboard-app/issues"
+  },
+  "homepage": "https://github.com/Alusp/leaderboard-app#readme"
+}
