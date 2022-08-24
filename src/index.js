@@ -1,14 +1,16 @@
 import _ from 'lodash';
 import './style.css';
+import { Board, dynamicScore } from './modules/board.js';
 
-function component() {
-  const element = document.createElement('div');
+const board = new Board();
+board.isBoardEmpty();
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['', ''], ' ');
-  element.classList.add('hello');
+const { isSmsOn } = dynamicScore;
 
-  return element;
-}
+if (!isSmsOn) dynamicScore.render(board.scores);
 
-document.body.appendChild(component());
+const btnAdd = document.querySelector('.score-add');
+btnAdd.onclick = () => board.getInput();
+
+const btnRefresh = document.querySelector('.btn-refresh');
+btnRefresh.onclick = () => board.refresh();
