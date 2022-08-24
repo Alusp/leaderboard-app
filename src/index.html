@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Leader-Board</title>
+</head>
+<body>
+   <main class="container mx-auto bg-white shadow-lg rounded mt-16">
+    <div class="flex w-full p-16">
+      <div class="w-8/12">
+         <div>
+          <h1 class="font-semibold text-5xl"> Leaderboard App</h1>
+         </div>
+         <div class="flex justify-between align-items-center mt-12 mb-4">
+          <h2 class="font-semibold text-2xl">
+            Recent Stories 
+          </h2>
+          <button type="button" class="btn-refresh border py-2 px-12">Refresh</button>
+         </div>
+         <div id="show-score" class="show-score w-full border p-6">
+          <!-- <ul>
+            <li class="my-2 font-semibold"> Alusine Jalloh: 300</li>
+            <li class="my-2 font-semibold"> Alusine Jalloh: 100</li>
+            <li class="my-2 font-semibold"> Ibrahim Jalloh: 30</li>
+            <li class="my-2 font-semibold"> Fanta Bitan: 300 </li>
+            <li class="my-2 font-semibold"> Alusine Jalloh: 100</li>
+            <li class="my-2 font-semibold"> Ibrahim Jalloh: 30</li>
+          </ul> -->
+         </div>
+      </div>
+      <div class="mt-20 mx-10 w-4/12">
+         <h2 class="font-semibold text-2xl"> Add Your Score</h2>
+         <form action="#" class="mt-4 flex flex-col">
+          <div class="mb-3">
+            <input type="text" id="name" placeholder="Your Name" class="border py-2 px-4 w-full"/>
+          </div>
+          <div class="mb-3">
+           <input type="text" id="score" placeholder="Your Score" class="border py-2 px-4 w-full"/>
+          </div>
+           
+            <button type="submit" class="score-add border py-2 px-12 hover:bg-gray-500 self-end"> Submit</button>
+         
+         </form>
+      </div>
+    </div>
+
+   </main>
+</body>
+</html>
