@@ -45,7 +45,7 @@ export class Board {
   isBoardEmpty() {
     if (this.scores.length === 0) dynamicScore.callEmptyMessage();
   }
-  
+
   saveBoard() {
     localStorage.setItem('scores', JSON.stringify(this.scores));
   }

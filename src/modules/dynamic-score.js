@@ -8,7 +8,7 @@ class DynamicScore {
     const showScore = this.resetSDisplay();
     const msg = document.createElement('span');
 
-    msg.innerText = 'Zero Winner at the Moment';
+    msg.innerText = 'Zero Winner at the Moment ';
     msg.className = 'no-message bold';
 
     const laughFace = document.createElement('span');
