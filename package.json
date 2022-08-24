@@ -4,7 +4,7 @@
   "description": "An Application showing a list of game leaders and top scores",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --open",
     "build": "webpack"
   },
@@ -18,8 +18,9 @@
   "bugs": {
     "url": "https://github.com/Alusp/leaderboard-app/issues"
   },
-  "homepage": "https://github.com/Alusp/leaderboard-app#readme",
+  "homepage": "https://Alusp.github.io/leaderboard-app",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "lodash": "^4.17.21",
     "tailwindcss": "^3.1.8"
   },
