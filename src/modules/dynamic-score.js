@@ -26,11 +26,11 @@ class DynamicScore {
   render(allscore) {
     const boardScore = this.resetSDisplay();
     allscore.forEach((score) => {
-      const { name, points } = score;
+      const { id, name, points } = score;
 
       const messageScore = document.createElement('h3');
       messageScore.classList = 'ml-3 even:bg-gray-300';
-      messageScore.innerText = `${name} :`;
+      messageScore.innerText = `${id}. ${name} :`;
 
       const scoredPoint = document.createElement('span');
       scoredPoint.classList = 'ml-2';
