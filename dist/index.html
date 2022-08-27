@@ -8,34 +8,25 @@
   <title>Leader-Board</title>
 <script defer src="runtimebundle.js"></script><script defer src="mainbundle.js"></script></head>
 <body>
-   <main class="container mx-auto bg-white shadow-lg rounded mt-16">
+   <main class="container mx-auto bg-gray-600/50 shadow-lg rounded mt-16">
     <div class="flex w-full p-16">
       <div class="w-8/12">
          <div>
-          <h1 class="font-semibold text-5xl"> Leaderboard App</h1>
+          <h1 class="font-semibold text-blue-600/100 text-5xl"> Leaderboard App</h1>
          </div>
-         <div>
-          <h1 class="hello"> This is just testin the css but its Over Riding it</h1>
-         </div>
+          
          <div class="flex justify-between align-items-center mt-12 mb-4">
-          <h2 class="font-semibold text-2xl">
+          <h2 class="font-semibold text-blue-600/50 text-2xl">
             Recent Stories 
           </h2>
-          <button type="button" class="btn-refresh border py-2 px-12">Refresh</button>
+          <button type="button" class="btn-refresh border-blue-600 text-blue-600/50 border py-2 px-12">Refresh</button>
          </div>
-         <div id="show-score" class="show-score w-full border p-6">
-          <!-- <ul>
-            <li class="my-2 font-semibold"> Alusine Jalloh: 300</li>
-            <li class="my-2 font-semibold"> Alusine Jalloh: 100</li>
-            <li class="my-2 font-semibold"> Ibrahim Jalloh: 30</li>
-            <li class="my-2 font-semibold"> Fanta Bitan: 300 </li>
-            <li class="my-2 font-semibold"> Alusine Jalloh: 100</li>
-            <li class="my-2 font-semibold"> Ibrahim Jalloh: 30</li>
-          </ul> -->
+         <div id="show-score" class="show-score border py-6 border-blue-600 rounded-md shadow-lg w-full border p-6">
+           
          </div>
       </div>
       <div class="mt-20 mx-10 w-4/12">
-         <h2 class="font-semibold text-2xl"> Add Your Score</h2>
+         <h2 class="font-semibold text-blue-600/50 text-2xl"> Add Your Score</h2>
          <form action="#" class="mt-4 flex flex-col">
           <div class="mb-3">
             <input type="text" id="name" placeholder="Your Name" class="border py-2 px-4 w-full"/>
@@ -44,7 +35,10 @@
            <input type="text" id="score" placeholder="Your Score" class="border py-2 px-4 w-full"/>
           </div>
            
-            <button type="submit" class="score-add border py-2 px-12 hover:bg-gray-500 self-end"> Submit</button>
+            <div class="backdrop-blur-md bg-sky/100">
+                <button type="submit" class="score-add bg-blue-600 border-blue-600 shadow-lg hover:bg-cyan-600/10 border py-2 px-12 self-end"> Submit</button>
+            </div>
+            
          
          </form>
       </div>
