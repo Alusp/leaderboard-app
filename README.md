@@ -3,7 +3,7 @@
 # Project Name
 ## LeaderBoard
 
-In this project I set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. With some barebone styling with great dynamic functionalities. I 
+In this project I set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. With some barebone styling with great dynamic functionalities.
 
 [Demo-Link](https://Alusp.github.io/leaderboard-app)
 
