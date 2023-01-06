@@ -1,3 +1,4 @@
+// import _ from 'lodash';
 import './style.css';
 import { Board, dynamicScore } from './modules/board.js';
 
