@@ -7,8 +7,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Leader-Board</title>
 <script defer src="runtimebundle.js"></script><script defer src="mainbundle.js"></script></head>
-<body>
-   <main class="container mx-auto bg-gray-600/50 shadow-lg rounded mt-16">
+<body class="bg-gradient-to-r from-cyan-500 to-green-500">
+   <main class="container mx-auto bg-gray-100 shadow-lg rounded my-24 mt-16">
+    <div class="flex flex-col md:flex-row w-full p-16 justify-center items-center md:items-start">
     <div class="flex w-full p-16">
       <div class="w-8/12">
          <div>
@@ -36,14 +37,18 @@
           </div>
            
             <div class="backdrop-blur-md bg-sky/100">
-                <button type="submit" class="score-add bg-blue-600 border-blue-600 shadow-lg hover:bg-cyan-600/10 border py-2 px-12 self-end"> Submit</button>
+                <button 
+                type="submit"
+                class="py-3 text-xl mt-2 rounded shadow-xl px-16 bg-teal-500 text-white hover:bg-teal-600"
+                > 
+                  Submit</button>
             </div>
             
          
          </form>
       </div>
     </div>
-
+    </div>
    </main>
 </body>
 </html>
