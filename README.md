@@ -5,7 +5,11 @@
 
 In this project I set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. With some barebone styling with great dynamic functionalities.
 
-[Demo-Link](https://Alusp.github.io/leaderboard-app)
+![LeaderBoard](https://user-images.githubusercontent.com/43528594/211150843-aa87d1ed-9624-4f7f-9b0e-cc71c7cdbfb0.png)
+
+
+
+[Demo-Link](https://leaderboardz.netlify.app/)
 
 ## Built With
 
