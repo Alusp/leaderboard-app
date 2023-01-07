@@ -1,6 +1,6 @@
 // import _ from 'lodash';
 import './style.css';
-import { Board, dynamicScore } from './modules/board.js';
+import { Board, dynamicScore } from './modules/board';
 
 const board = new Board();
 board.isBoardEmpty();

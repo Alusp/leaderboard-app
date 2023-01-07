@@ -1,5 +1,5 @@
-import ScoreCreate from './score-create.js';
-import DynamicScore from './dynamic-score.js';
+import ScoreCreate from './score-create';
+import DynamicScore from './dynamic-score';
 
 const dynamicScore = new DynamicScore();
 

@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved, import/no-extraneous-dependencies
 import axios from 'axios';
 
 const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
