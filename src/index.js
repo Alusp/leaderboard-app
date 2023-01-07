@@ -10,7 +10,9 @@ const { isSmsOn } = dynamicScore;
 if (!isSmsOn) dynamicScore.render(board.scores);
 
 const btnAdd = document.querySelector('.score-add');
-btnAdd.onclick = () => board.getInput();
+if (btnAdd !== null && typeof btnAdd !== 'undefined') {
+  btnAdd.onclick = () => board.getInput();
+}
 
 const btnRefresh = document.querySelector('.btn-refresh');
 if (btnRefresh !== null && typeof btnRefresh !== 'undefined') {
