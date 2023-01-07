@@ -13,4 +13,6 @@ const btnAdd = document.querySelector('.score-add');
 btnAdd.onclick = () => board.getInput();
 
 const btnRefresh = document.querySelector('.btn-refresh');
-btnRefresh.onclick = () => board.refresh();
+if (btnRefresh !== null && typeof btnRefresh !== 'undefined') {
+  btnRefresh.onclick = () => board.refresh();
+}
