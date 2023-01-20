@@ -1,7 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-## LeaderBoard
+# LeaderBoard
 
 In this project I set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. With some barebone styling with great dynamic functionalities.
 
