@@ -92,8 +92,7 @@ In this project I set up a JavaScript project for the Leaderboard list app, usin
 
 
 - [Demo-Link](https://leaderboardz.netlify.app/)
-
-![LeaderBoard](https://user-images.githubusercontent.com/43528594/211150843-aa87d1ed-9624-4f7f-9b0e-cc71c7cdbfb0.png)
+![image](https://user-images.githubusercontent.com/43528594/218831504-e806abbc-e42c-4642-ab8a-acf7b53e8030.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
