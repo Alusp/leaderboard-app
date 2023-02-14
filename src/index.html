@@ -5,49 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
   <title>Leader-Board</title>
 </head>
-<body class="bg-gradient-to-r from-cyan-500 to-green-500">
-   <main class="container mx-auto bg-gray-100 shadow-lg rounded my-24 mt-16">
+<body class="bg-gradient-to-r from-blue-500 to-cyan-500">
+   <main class="container mx-auto bg-gray-100 shadow-lg rounded my-24">
     <div class="flex flex-col md:flex-row w-full p-16 justify-center items-center md:items-start">
-    <div class="flex w-full p-16">
-      <div class="w-8/12">
+    <div class="md:w-3/5 w-full h-3/4">
          <div>
-          <h1 class="font-semibold text-blue-600/100 text-5xl"> Leaderboard App</h1>
+          <h1 class="font-semibold text-4xl md:text-5xl text-blue-600/100 drop-shadow-xl font-bold"> Leaderboard App</h1>
          </div>
           
          <div class="flex justify-between align-items-center mt-12 mb-4">
-          <h2 class="font-semibold text-blue-600/50 text-2xl">
-            Recent Stories 
+          <h2 class="font-semibold text-2xl text-blue-600/50 font-bold">
+            Recent Scores 
           </h2>
-          <button type="button" class="btn-refresh border-blue-600 text-blue-600/50 border py-2 px-12">Refresh</button>
+          <button type="button" class="btn-refresh border-blue-600 text-blue-600/50 border py-2 md:px-12 px-5 rounded-md shadow-lg hover:bg-blue-600/50 shadow text-lg">Refresh</button>
          </div>
-         <div id="show-score" class="show-score border py-6 border-blue-600 rounded-md shadow-lg w-full border p-6">
+         <div id="show-score" class="show-score font-semibold border py-6 border-blue-600 rounded-md shadow-lg w-full border p-6">
            
          </div>
-      </div>
-      <div class="mt-20 mx-10 w-4/12">
+    </div>
+      <div class="mt-20 mx-5 md:w-2/5 w-full">
          <h2 class="font-semibold text-blue-600/50 text-2xl"> Add Your Score</h2>
-         <form action="#" class="mt-4 flex flex-col">
+         <form action="#" class="mt-4">
           <div class="mb-3">
-            <input type="text" id="name" placeholder="Your Name" class="border py-2 px-4 w-full"/>
+            <input type="text" id="name" placeholder="Your Name" class="border py-3 px-4 w-full"/>
           </div>
           <div class="mb-3">
-           <input type="text" id="score" placeholder="Your Score" class="border py-2 px-4 w-full"/>
+           <input type="number" id="score" placeholder="Your Score" class="border py-3 px-4 w-full"/>
           </div>
            
-            <div class="backdrop-blur-md bg-sky/100">
+            <div class="flex justify-start backdrop-blur-md bg-sky/100">
                 <button 
                 type="submit"
-                class="py-3 text-xl mt-2 rounded shadow-xl px-16 bg-teal-500 text-white hover:bg-teal-600"
+                class="py-3 text-xl mt-2 rounded shadow-xl px-16 bg-cyan-500 text-white hover:bg-cyan-500"
                 > 
-                  Submit</button>
+                  Submit
+                </button>
             </div>
-            
-         
          </form>
       </div>
-    </div>
     </div>
    </main>
 </body>
