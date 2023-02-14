@@ -29,7 +29,7 @@ class DynamicScore {
       const { id, name, points } = score;
 
       const messageScore = document.createElement('h3');
-      messageScore.classList = 'ml-3 even:bg-gray-300';
+      messageScore.classList = 'ml-3 my-2 font-semibold rounded my-4 p-3 shadow border-teal-400 border-l-4 overflow-hidden';
       messageScore.innerText = `${id}. ${name} :`;
 
       const scoredPoint = document.createElement('span');

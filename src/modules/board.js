@@ -55,7 +55,6 @@ export class Board {
    }
 
    getInput() {
-     // const id = this.scores.length + 1;
      const { value: name } = document.getElementById('name');
      const { value: points } = document.getElementById('score');
 
